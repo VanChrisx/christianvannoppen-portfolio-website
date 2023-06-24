@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -96,6 +96,10 @@ a:hover {
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
@@ -110,11 +114,10 @@ img {
 
 /*======= MEDIUM DEVICES =======*/
 
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
-
   section {
     margin-top: 6rem;
   }
@@ -122,7 +125,7 @@ img {
 
 /*======= SMALL DEVICES =======*/
 
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
