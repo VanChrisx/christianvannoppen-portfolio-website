@@ -1,9 +1,13 @@
 footer {
-  background: var(--color-primary);
+  background-color: var(--color-primary);
   padding-bottom: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
+}
+footer:hover {
+  background-image: url(../../assets/image-from-rawpixel-id-2357208-png.png);
+  background-size: 100%;
 }
 
 footer a {

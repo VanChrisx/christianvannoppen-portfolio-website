@@ -21,8 +21,8 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Puedes comunicarte conmigo</h5>
+      <h2>Contacto</h2>
 
       <div className="container container__contact">
         <div className="contact__options">
@@ -34,7 +34,7 @@ const Contact = () => {
               href="mailto:christianvannoppen@gmail.com"
               target="_blank"
               rel="noreferrer">
-              Send a message
+              Envíame un mensaje
             </a>
           </article>
           <article className="contact__option">
@@ -45,7 +45,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/christian-daniel-van-noppen/"
               target="_blank"
               rel="noreferrer">
-              Send a message
+              Envíame un mensaje
             </a>
           </article>
 
@@ -57,7 +57,7 @@ const Contact = () => {
               href="https://wa.me/541130293376"
               target="_blank"
               rel="noreferrer">
-              Send a message
+              Envíame un mensaje
             </a>
           </article>
         </div>
@@ -68,24 +68,24 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Tu nombre completo"
             required
           />
           <input
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder="Tu email"
             required
           />
           <textarea
             name="message"
             rows="7"
-            placeholder="Your Message"
+            placeholder="Déjame tu mensaje"
             required></textarea>
           <button
             type="submit"
             className="btn btn-primary">
-            Send Message
+            Enviar Mensaje
           </button>
         </form>
       </div>

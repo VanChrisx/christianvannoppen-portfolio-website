@@ -8,12 +8,14 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   bottom: 2rem;
-  display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
 }
-
+.navbar {
+  display: flex;
+  gap: 0.8rem;
+}
 nav a {
   display: flex;
   background: transparent;

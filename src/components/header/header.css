@@ -26,7 +26,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 6rem;
 }
 
 .header__socials::after {
@@ -46,16 +46,15 @@ header {
   left: calc(50% - 15rem);
 
   background: linear-gradient(var(--color-primary), transparent);
-  border-radius: 200rem 200rem 0 0;
-
-  margin-top: 4rem;
+  border-radius: 20rem 20rem;
+  margin-top: 2rem;
 }
 .me img {
   align-self: center;
   justify-self: flex-end;
   width: 97%;
   height: 97%;
-  border-radius: 200rem 200rem 0 0;
+  border-radius: 20rem 20rem;
   overflow: hidden;
 }
 
@@ -64,7 +63,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 8rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -78,7 +77,6 @@ header {
   }
 }
 /*======= SMALL DEVICES =======*/
-
 @media screen and (max-width: 720px) {
   header {
     height: 100vh;
@@ -86,5 +84,17 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+  .me {
+    height: 15rem;
+    width: 15rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  header {
+    height: 150vh;
   }
 }

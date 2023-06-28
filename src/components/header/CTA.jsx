@@ -9,12 +9,12 @@ const CTA = () => {
           href={CV}
           download
           className="btn">
-          Download CV
+          Descargar CV
         </a>
         <a
           href="#contact"
           className="btn btn-primary">
-          Let's Talk
+          Contacto
         </a>
       </div>
     </div>
