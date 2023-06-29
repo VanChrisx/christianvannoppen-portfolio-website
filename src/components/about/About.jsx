@@ -48,12 +48,15 @@ const About = () => {
             </a>
           </div>
           <p>
-            Me encuentro en crecimiento en el desarrollo
-            <strong> Front-End </strong>
-            buscando constantemente fortalecer mis habilidades. Una de mis
-            principales tareas, aparte de brindar un aspecto idóneo a una web,
-            es poder potenciar su llegada a más personas, por lo que dedico
-            bastante tiempo a optimizar el SEO de un proyecto.
+            Hola, soy Christian y disfruto de crear cosas para la web. Comencé
+            mi viaje durante la secundaría, dónde mi primer acercamiento a la
+            programación fue con Visual Basic 6.0. Durante un tiempo deje en
+            segundo plano la programacion para explorar disciplinas artisticas,
+            pero nunca me halle en ninguna de ellas. Recientemente me reencontre
+            con la programacion de la mano del desarrollo web{" "}
+            <strong>Front-End</strong>, viendo tutoriales, y realizando cursos.
+            Actualmente estoy buscando un puesto de desarrollador junior para
+            finalmente comenzar mi carrera y aprender entre profesionales.
           </p>
           <a
             href="#contact"
