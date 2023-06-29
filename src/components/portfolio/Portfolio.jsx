@@ -40,7 +40,7 @@ const data = [
       "https://res.cloudinary.com/du0sum3lj/image/upload/v1688000435/My%20portfolio/Digimon-search_wfhicr.png",
     title: "Digimon-Search",
     github: "https://github.com/VanChrisx/digimon-search-app",
-    demo: "",
+    demo: "https://vanchrisx.github.io/digimon-search-app/",
   },
 ];
 
