@@ -24,7 +24,7 @@ const data = [
       "https://res.cloudinary.com/du0sum3lj/image/upload/v1687625971/My%20portfolio/AplicarWebSite_rvljue.png",
     title: "Aplicar Website",
     github: "",
-    demo: "https://staging.aplicar.com.ar",
+    demo: "https://aplicar.com.ar",
   },
   {
     id: 4,
