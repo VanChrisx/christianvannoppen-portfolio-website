@@ -14,19 +14,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Diseño de interfaz de usuario y menu de navegación</p>
+              <p>Maquetacion Web.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Integracion de contenido multimedia en websites</p>
+              <p>Diseño de interfaz de usuario y menu de navegación.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Implementacion de diseño responsive</p>
+              <p>Integracion de contenido multimedia en websites.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Diseño componetizado</p>
+              <p>Implementacion de diseño responsive.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Diseño componetizado.</p>
             </li>
           </ul>
         </article>

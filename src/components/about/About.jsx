@@ -48,15 +48,11 @@ const About = () => {
             </a>
           </div>
           <p>
-            Hola, soy Christian y disfruto de crear cosas para la web. Comencé
-            mi viaje durante la secundaría, dónde mi primer acercamiento a la
-            programación fue con Visual Basic 6.0. Durante un tiempo deje en
-            segundo plano la programacion para explorar disciplinas artisticas,
-            pero nunca me halle en ninguna de ellas. Recientemente me reencontre
-            con la programacion de la mano del desarrollo web{" "}
-            <strong>Front-End</strong>, viendo tutoriales, y realizando cursos.
-            Actualmente estoy buscando un puesto de desarrollador junior para
-            finalmente comenzar mi carrera y aprender entre profesionales.
+            Me apasiona crear web sites atractivos, por esa razón decidí
+            adentrarme en el mundo del desarrollo web <strong>Front-End</strong>{" "}
+            a través de tutoriales y realizando cursos. Actualmente estoy
+            buscando un puesto de desarrollador junior para finalmente comenzar
+            mi carrera y aprender entre profesionales.
           </p>
           <a
             href="#contact"
